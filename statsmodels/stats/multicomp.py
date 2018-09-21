@@ -36,3 +36,5 @@ def pairwise_tukeyhsd(endog, groups, alpha=0.05):
     '''
 
     return MultiComparison(endog, groups).tukeyhsd(alpha=alpha)
+
+def pairwise_tukeyhsd_from_summary(xbar, )
